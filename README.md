@@ -67,3 +67,8 @@ create your own sdk with
     - singleton
     - abstract factory
     - side car
+  - static code analysis
+  - security
+    - binary application scan 
+    - SSL supports for various tools
+    - other security considerations
