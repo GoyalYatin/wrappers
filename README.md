@@ -1,1 +1,68 @@
 # practiceWrapperOrSdk
+
+create your own sdk with 
+  - adapters
+    - mq-to-kafka
+    - kafka-to-mq 
+    - kafka-to-rest
+    - rest-to-kafka
+    - kafka-to-mongo
+    - mongo-to-kafka
+  - Serialization
+    - proto
+    - json
+    - xml
+    - csv
+    - avro
+  - Deserialization
+    - proto
+    - json
+    - xml
+    - csv
+    - avro
+  - other features to explore
+    - code generation using javapoet
+    - data mapping using mapstruct
+    - plugins using maven mojo
+    - protobuf manipulations
+      - detection changes(event detection)
+      - proto documentation (sort of registry)
+      - buf library for linting etc
+    - json manipulations
+      - json patch 
+    - kstream manipulations
+      - join
+      - resequence
+      - dedupe
+      - PAPI and DSL libs
+    - ksql
+    - kafka connect support
+    - Admin commands on fly
+    - feature flags
+    - Mongo manipulations
+      - projections
+      - indexes
+      - aggregation framework
+      - map-reduce features
+      - sharding
+    - Open api specifications(swagger doc)
+    - business rule management and business process management(workflow)
+    - service registry/discovery
+    - openshift api 
+    - bitbucket api
+    - github api
+    - service mesh
+    - blueprint 
+    - helm
+    - github pipeline or cicd
+  - observability
+    - metrics
+    - logs
+    - tracing
+    - alerts
+  - Patterns
+    - Builder
+    - singleton
+    - abstract factory
+    - side car
+	
